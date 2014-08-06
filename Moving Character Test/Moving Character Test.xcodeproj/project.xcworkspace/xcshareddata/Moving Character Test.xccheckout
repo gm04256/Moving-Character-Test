@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C53AE60B-4671-42AD-941B-CC689F9AD2C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Moving Character Test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4222DC63-7F06-469C-B941-71A39A2C4C5B</key>
+		<string>https://github.com/gm04256/Moving-Character-Test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Moving Character Test/Moving Character Test.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4222DC63-7F06-469C-B941-71A39A2C4C5B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gm04256/Moving-Character-Test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4222DC63-7F06-469C-B941-71A39A2C4C5B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4222DC63-7F06-469C-B941-71A39A2C4C5B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Moving Character Test</string>
+		</dict>
+	</array>
+</dict>
+</plist>
