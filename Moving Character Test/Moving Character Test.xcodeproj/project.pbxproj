@@ -7,152 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC3603F61991C02F008B0501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3603F51991C02F008B0501 /* Foundation.framework */; };
-		FC3603F81991C02F008B0501 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3603F71991C02F008B0501 /* CoreGraphics.framework */; };
-		FC3603FA1991C02F008B0501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3603F91991C02F008B0501 /* UIKit.framework */; };
-		FC3604001991C02F008B0501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC3603FE1991C02F008B0501 /* InfoPlist.strings */; };
-		FC3604021991C02F008B0501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3604011991C02F008B0501 /* main.m */; };
-		FC3604061991C02F008B0501 /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3604051991C02F008B0501 /* BGMAppDelegate.m */; };
-		FC3604091991C02F008B0501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3604071991C02F008B0501 /* Main.storyboard */; };
-		FC36040C1991C02F008B0501 /* BGMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC36040B1991C02F008B0501 /* BGMMasterViewController.m */; };
-		FC36040F1991C02F008B0501 /* BGMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC36040E1991C02F008B0501 /* BGMDetailViewController.m */; };
-		FC3604111991C02F008B0501 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3604101991C02F008B0501 /* Images.xcassets */; };
-		FC3604181991C02F008B0501 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3604171991C02F008B0501 /* XCTest.framework */; };
-		FC3604191991C02F008B0501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3603F51991C02F008B0501 /* Foundation.framework */; };
-		FC36041A1991C02F008B0501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3603F91991C02F008B0501 /* UIKit.framework */; };
-		FC3604221991C02F008B0501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC3604201991C02F008B0501 /* InfoPlist.strings */; };
-		FC3604241991C02F008B0501 /* Moving_Character_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3604231991C02F008B0501 /* Moving_Character_TestTests.m */; };
+		FC36043A1991C18D008B0501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3604391991C18D008B0501 /* Foundation.framework */; };
+		FC36043C1991C18D008B0501 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC36043B1991C18D008B0501 /* CoreGraphics.framework */; };
+		FC36043E1991C18D008B0501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC36043D1991C18D008B0501 /* UIKit.framework */; };
+		FC3604441991C18D008B0501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC3604421991C18D008B0501 /* InfoPlist.strings */; };
+		FC3604461991C18D008B0501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3604451991C18D008B0501 /* main.m */; };
+		FC36044A1991C18D008B0501 /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3604491991C18D008B0501 /* BGMAppDelegate.m */; };
+		FC36044D1991C18D008B0501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC36044B1991C18D008B0501 /* Main.storyboard */; };
+		FC3604501991C18D008B0501 /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC36044F1991C18D008B0501 /* BGMViewController.m */; };
+		FC3604521991C18D008B0501 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3604511991C18D008B0501 /* Images.xcassets */; };
+		FC3604591991C18D008B0501 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3604581991C18D008B0501 /* XCTest.framework */; };
+		FC36045A1991C18D008B0501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3604391991C18D008B0501 /* Foundation.framework */; };
+		FC36045B1991C18D008B0501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC36043D1991C18D008B0501 /* UIKit.framework */; };
+		FC3604631991C18D008B0501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC3604611991C18D008B0501 /* InfoPlist.strings */; };
+		FC3604651991C18D008B0501 /* Moving_Character_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3604641991C18D008B0501 /* Moving_Character_TestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC36041B1991C02F008B0501 /* PBXContainerItemProxy */ = {
+		FC36045C1991C18D008B0501 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC3603EA1991C02F008B0501 /* Project object */;
+			containerPortal = FC36042E1991C18D008B0501 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC3603F11991C02F008B0501;
+			remoteGlobalIDString = FC3604351991C18D008B0501;
 			remoteInfo = "Moving Character Test";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC3603F21991C02F008B0501 /* Moving Character Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moving Character Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3603F51991C02F008B0501 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FC3603F71991C02F008B0501 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FC3603F91991C02F008B0501 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FC3603FD1991C02F008B0501 /* Moving Character Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving Character Test-Info.plist"; sourceTree = "<group>"; };
-		FC3603FF1991C02F008B0501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC3604011991C02F008B0501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC3604031991C02F008B0501 /* Moving Character Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moving Character Test-Prefix.pch"; sourceTree = "<group>"; };
-		FC3604041991C02F008B0501 /* BGMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMAppDelegate.h; sourceTree = "<group>"; };
-		FC3604051991C02F008B0501 /* BGMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMAppDelegate.m; sourceTree = "<group>"; };
-		FC3604081991C02F008B0501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC36040A1991C02F008B0501 /* BGMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMMasterViewController.h; sourceTree = "<group>"; };
-		FC36040B1991C02F008B0501 /* BGMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMMasterViewController.m; sourceTree = "<group>"; };
-		FC36040D1991C02F008B0501 /* BGMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMDetailViewController.h; sourceTree = "<group>"; };
-		FC36040E1991C02F008B0501 /* BGMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMDetailViewController.m; sourceTree = "<group>"; };
-		FC3604101991C02F008B0501 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FC3604161991C02F008B0501 /* Moving Character TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moving Character TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3604171991C02F008B0501 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FC36041F1991C02F008B0501 /* Moving Character TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving Character TestTests-Info.plist"; sourceTree = "<group>"; };
-		FC3604211991C02F008B0501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC3604231991C02F008B0501 /* Moving_Character_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moving_Character_TestTests.m; sourceTree = "<group>"; };
+		FC3604361991C18D008B0501 /* Moving Character Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moving Character Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3604391991C18D008B0501 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC36043B1991C18D008B0501 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC36043D1991C18D008B0501 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC3604411991C18D008B0501 /* Moving Character Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving Character Test-Info.plist"; sourceTree = "<group>"; };
+		FC3604431991C18D008B0501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC3604451991C18D008B0501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3604471991C18D008B0501 /* Moving Character Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moving Character Test-Prefix.pch"; sourceTree = "<group>"; };
+		FC3604481991C18D008B0501 /* BGMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMAppDelegate.h; sourceTree = "<group>"; };
+		FC3604491991C18D008B0501 /* BGMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMAppDelegate.m; sourceTree = "<group>"; };
+		FC36044C1991C18D008B0501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC36044E1991C18D008B0501 /* BGMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMViewController.h; sourceTree = "<group>"; };
+		FC36044F1991C18D008B0501 /* BGMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMViewController.m; sourceTree = "<group>"; };
+		FC3604511991C18D008B0501 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC3604571991C18D008B0501 /* Moving Character TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moving Character TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3604581991C18D008B0501 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC3604601991C18D008B0501 /* Moving Character TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving Character TestTests-Info.plist"; sourceTree = "<group>"; };
+		FC3604621991C18D008B0501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC3604641991C18D008B0501 /* Moving_Character_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moving_Character_TestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC3603EF1991C02F008B0501 /* Frameworks */ = {
+		FC3604331991C18D008B0501 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3603F81991C02F008B0501 /* CoreGraphics.framework in Frameworks */,
-				FC3603FA1991C02F008B0501 /* UIKit.framework in Frameworks */,
-				FC3603F61991C02F008B0501 /* Foundation.framework in Frameworks */,
+				FC36043C1991C18D008B0501 /* CoreGraphics.framework in Frameworks */,
+				FC36043E1991C18D008B0501 /* UIKit.framework in Frameworks */,
+				FC36043A1991C18D008B0501 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC3604131991C02F008B0501 /* Frameworks */ = {
+		FC3604541991C18D008B0501 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3604181991C02F008B0501 /* XCTest.framework in Frameworks */,
-				FC36041A1991C02F008B0501 /* UIKit.framework in Frameworks */,
-				FC3604191991C02F008B0501 /* Foundation.framework in Frameworks */,
+				FC3604591991C18D008B0501 /* XCTest.framework in Frameworks */,
+				FC36045B1991C18D008B0501 /* UIKit.framework in Frameworks */,
+				FC36045A1991C18D008B0501 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC3603E91991C02F008B0501 = {
+		FC36042D1991C18D008B0501 = {
 			isa = PBXGroup;
 			children = (
-				FC3603FB1991C02F008B0501 /* Moving Character Test */,
-				FC36041D1991C02F008B0501 /* Moving Character TestTests */,
-				FC3603F41991C02F008B0501 /* Frameworks */,
-				FC3603F31991C02F008B0501 /* Products */,
+				FC36043F1991C18D008B0501 /* Moving Character Test */,
+				FC36045E1991C18D008B0501 /* Moving Character TestTests */,
+				FC3604381991C18D008B0501 /* Frameworks */,
+				FC3604371991C18D008B0501 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FC3603F31991C02F008B0501 /* Products */ = {
+		FC3604371991C18D008B0501 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC3603F21991C02F008B0501 /* Moving Character Test.app */,
-				FC3604161991C02F008B0501 /* Moving Character TestTests.xctest */,
+				FC3604361991C18D008B0501 /* Moving Character Test.app */,
+				FC3604571991C18D008B0501 /* Moving Character TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC3603F41991C02F008B0501 /* Frameworks */ = {
+		FC3604381991C18D008B0501 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC3603F51991C02F008B0501 /* Foundation.framework */,
-				FC3603F71991C02F008B0501 /* CoreGraphics.framework */,
-				FC3603F91991C02F008B0501 /* UIKit.framework */,
-				FC3604171991C02F008B0501 /* XCTest.framework */,
+				FC3604391991C18D008B0501 /* Foundation.framework */,
+				FC36043B1991C18D008B0501 /* CoreGraphics.framework */,
+				FC36043D1991C18D008B0501 /* UIKit.framework */,
+				FC3604581991C18D008B0501 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC3603FB1991C02F008B0501 /* Moving Character Test */ = {
+		FC36043F1991C18D008B0501 /* Moving Character Test */ = {
 			isa = PBXGroup;
 			children = (
-				FC3604041991C02F008B0501 /* BGMAppDelegate.h */,
-				FC3604051991C02F008B0501 /* BGMAppDelegate.m */,
-				FC3604071991C02F008B0501 /* Main.storyboard */,
-				FC36040A1991C02F008B0501 /* BGMMasterViewController.h */,
-				FC36040B1991C02F008B0501 /* BGMMasterViewController.m */,
-				FC36040D1991C02F008B0501 /* BGMDetailViewController.h */,
-				FC36040E1991C02F008B0501 /* BGMDetailViewController.m */,
-				FC3604101991C02F008B0501 /* Images.xcassets */,
-				FC3603FC1991C02F008B0501 /* Supporting Files */,
+				FC3604481991C18D008B0501 /* BGMAppDelegate.h */,
+				FC3604491991C18D008B0501 /* BGMAppDelegate.m */,
+				FC36044B1991C18D008B0501 /* Main.storyboard */,
+				FC36044E1991C18D008B0501 /* BGMViewController.h */,
+				FC36044F1991C18D008B0501 /* BGMViewController.m */,
+				FC3604511991C18D008B0501 /* Images.xcassets */,
+				FC3604401991C18D008B0501 /* Supporting Files */,
 			);
 			path = "Moving Character Test";
 			sourceTree = "<group>";
 		};
-		FC3603FC1991C02F008B0501 /* Supporting Files */ = {
+		FC3604401991C18D008B0501 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC3603FD1991C02F008B0501 /* Moving Character Test-Info.plist */,
-				FC3603FE1991C02F008B0501 /* InfoPlist.strings */,
-				FC3604011991C02F008B0501 /* main.m */,
-				FC3604031991C02F008B0501 /* Moving Character Test-Prefix.pch */,
+				FC3604411991C18D008B0501 /* Moving Character Test-Info.plist */,
+				FC3604421991C18D008B0501 /* InfoPlist.strings */,
+				FC3604451991C18D008B0501 /* main.m */,
+				FC3604471991C18D008B0501 /* Moving Character Test-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FC36041D1991C02F008B0501 /* Moving Character TestTests */ = {
+		FC36045E1991C18D008B0501 /* Moving Character TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC3604231991C02F008B0501 /* Moving_Character_TestTests.m */,
-				FC36041E1991C02F008B0501 /* Supporting Files */,
+				FC3604641991C18D008B0501 /* Moving_Character_TestTests.m */,
+				FC36045F1991C18D008B0501 /* Supporting Files */,
 			);
 			path = "Moving Character TestTests";
 			sourceTree = "<group>";
 		};
-		FC36041E1991C02F008B0501 /* Supporting Files */ = {
+		FC36045F1991C18D008B0501 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC36041F1991C02F008B0501 /* Moving Character TestTests-Info.plist */,
-				FC3604201991C02F008B0501 /* InfoPlist.strings */,
+				FC3604601991C18D008B0501 /* Moving Character TestTests-Info.plist */,
+				FC3604611991C18D008B0501 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,13 +155,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC3603F11991C02F008B0501 /* Moving Character Test */ = {
+		FC3604351991C18D008B0501 /* Moving Character Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC3604271991C02F008B0501 /* Build configuration list for PBXNativeTarget "Moving Character Test" */;
+			buildConfigurationList = FC3604681991C18D008B0501 /* Build configuration list for PBXNativeTarget "Moving Character Test" */;
 			buildPhases = (
-				FC3603EE1991C02F008B0501 /* Sources */,
-				FC3603EF1991C02F008B0501 /* Frameworks */,
-				FC3603F01991C02F008B0501 /* Resources */,
+				FC3604321991C18D008B0501 /* Sources */,
+				FC3604331991C18D008B0501 /* Frameworks */,
+				FC3604341991C18D008B0501 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,43 +169,43 @@
 			);
 			name = "Moving Character Test";
 			productName = "Moving Character Test";
-			productReference = FC3603F21991C02F008B0501 /* Moving Character Test.app */;
+			productReference = FC3604361991C18D008B0501 /* Moving Character Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC3604151991C02F008B0501 /* Moving Character TestTests */ = {
+		FC3604561991C18D008B0501 /* Moving Character TestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC36042A1991C02F008B0501 /* Build configuration list for PBXNativeTarget "Moving Character TestTests" */;
+			buildConfigurationList = FC36046B1991C18D008B0501 /* Build configuration list for PBXNativeTarget "Moving Character TestTests" */;
 			buildPhases = (
-				FC3604121991C02F008B0501 /* Sources */,
-				FC3604131991C02F008B0501 /* Frameworks */,
-				FC3604141991C02F008B0501 /* Resources */,
+				FC3604531991C18D008B0501 /* Sources */,
+				FC3604541991C18D008B0501 /* Frameworks */,
+				FC3604551991C18D008B0501 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC36041C1991C02F008B0501 /* PBXTargetDependency */,
+				FC36045D1991C18D008B0501 /* PBXTargetDependency */,
 			);
 			name = "Moving Character TestTests";
 			productName = "Moving Character TestTests";
-			productReference = FC3604161991C02F008B0501 /* Moving Character TestTests.xctest */;
+			productReference = FC3604571991C18D008B0501 /* Moving Character TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC3603EA1991C02F008B0501 /* Project object */ = {
+		FC36042E1991C18D008B0501 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BGM;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "馬 岩";
 				TargetAttributes = {
-					FC3604151991C02F008B0501 = {
-						TestTargetID = FC3603F11991C02F008B0501;
+					FC3604561991C18D008B0501 = {
+						TestTargetID = FC3604351991C18D008B0501;
 					};
 				};
 			};
-			buildConfigurationList = FC3603ED1991C02F008B0501 /* Build configuration list for PBXProject "Moving Character Test" */;
+			buildConfigurationList = FC3604311991C18D008B0501 /* Build configuration list for PBXProject "Moving Character Test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,89 +213,88 @@
 				en,
 				Base,
 			);
-			mainGroup = FC3603E91991C02F008B0501;
-			productRefGroup = FC3603F31991C02F008B0501 /* Products */;
+			mainGroup = FC36042D1991C18D008B0501;
+			productRefGroup = FC3604371991C18D008B0501 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC3603F11991C02F008B0501 /* Moving Character Test */,
-				FC3604151991C02F008B0501 /* Moving Character TestTests */,
+				FC3604351991C18D008B0501 /* Moving Character Test */,
+				FC3604561991C18D008B0501 /* Moving Character TestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC3603F01991C02F008B0501 /* Resources */ = {
+		FC3604341991C18D008B0501 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3604111991C02F008B0501 /* Images.xcassets in Resources */,
-				FC3604001991C02F008B0501 /* InfoPlist.strings in Resources */,
-				FC3604091991C02F008B0501 /* Main.storyboard in Resources */,
+				FC3604521991C18D008B0501 /* Images.xcassets in Resources */,
+				FC3604441991C18D008B0501 /* InfoPlist.strings in Resources */,
+				FC36044D1991C18D008B0501 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC3604141991C02F008B0501 /* Resources */ = {
+		FC3604551991C18D008B0501 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3604221991C02F008B0501 /* InfoPlist.strings in Resources */,
+				FC3604631991C18D008B0501 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC3603EE1991C02F008B0501 /* Sources */ = {
+		FC3604321991C18D008B0501 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC36040F1991C02F008B0501 /* BGMDetailViewController.m in Sources */,
-				FC36040C1991C02F008B0501 /* BGMMasterViewController.m in Sources */,
-				FC3604021991C02F008B0501 /* main.m in Sources */,
-				FC3604061991C02F008B0501 /* BGMAppDelegate.m in Sources */,
+				FC3604461991C18D008B0501 /* main.m in Sources */,
+				FC36044A1991C18D008B0501 /* BGMAppDelegate.m in Sources */,
+				FC3604501991C18D008B0501 /* BGMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC3604121991C02F008B0501 /* Sources */ = {
+		FC3604531991C18D008B0501 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3604241991C02F008B0501 /* Moving_Character_TestTests.m in Sources */,
+				FC3604651991C18D008B0501 /* Moving_Character_TestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC36041C1991C02F008B0501 /* PBXTargetDependency */ = {
+		FC36045D1991C18D008B0501 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC3603F11991C02F008B0501 /* Moving Character Test */;
-			targetProxy = FC36041B1991C02F008B0501 /* PBXContainerItemProxy */;
+			target = FC3604351991C18D008B0501 /* Moving Character Test */;
+			targetProxy = FC36045C1991C18D008B0501 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC3603FE1991C02F008B0501 /* InfoPlist.strings */ = {
+		FC3604421991C18D008B0501 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC3603FF1991C02F008B0501 /* en */,
+				FC3604431991C18D008B0501 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FC3604071991C02F008B0501 /* Main.storyboard */ = {
+		FC36044B1991C18D008B0501 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC3604081991C02F008B0501 /* Base */,
+				FC36044C1991C18D008B0501 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FC3604201991C02F008B0501 /* InfoPlist.strings */ = {
+		FC3604611991C18D008B0501 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC3604211991C02F008B0501 /* en */,
+				FC3604621991C18D008B0501 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -308,7 +302,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FC3604251991C02F008B0501 /* Debug */ = {
+		FC3604661991C18D008B0501 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,10 +337,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		FC3604261991C02F008B0501 /* Release */ = {
+		FC3604671991C18D008B0501 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,11 +369,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FC3604281991C02F008B0501 /* Debug */ = {
+		FC3604691991C18D008B0501 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -391,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		FC3604291991C02F008B0501 /* Release */ = {
+		FC36046A1991C18D008B0501 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -404,7 +400,7 @@
 			};
 			name = Release;
 		};
-		FC36042B1991C02F008B0501 /* Debug */ = {
+		FC36046C1991C18D008B0501 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moving Character Test.app/Moving Character Test";
@@ -426,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		FC36042C1991C02F008B0501 /* Release */ = {
+		FC36046D1991C18D008B0501 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moving Character Test.app/Moving Character Test";
@@ -447,32 +443,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC3603ED1991C02F008B0501 /* Build configuration list for PBXProject "Moving Character Test" */ = {
+		FC3604311991C18D008B0501 /* Build configuration list for PBXProject "Moving Character Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3604251991C02F008B0501 /* Debug */,
-				FC3604261991C02F008B0501 /* Release */,
+				FC3604661991C18D008B0501 /* Debug */,
+				FC3604671991C18D008B0501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC3604271991C02F008B0501 /* Build configuration list for PBXNativeTarget "Moving Character Test" */ = {
+		FC3604681991C18D008B0501 /* Build configuration list for PBXNativeTarget "Moving Character Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3604281991C02F008B0501 /* Debug */,
-				FC3604291991C02F008B0501 /* Release */,
+				FC3604691991C18D008B0501 /* Debug */,
+				FC36046A1991C18D008B0501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		FC36042A1991C02F008B0501 /* Build configuration list for PBXNativeTarget "Moving Character TestTests" */ = {
+		FC36046B1991C18D008B0501 /* Build configuration list for PBXNativeTarget "Moving Character TestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC36042B1991C02F008B0501 /* Debug */,
-				FC36042C1991C02F008B0501 /* Release */,
+				FC36046C1991C18D008B0501 /* Debug */,
+				FC36046D1991C18D008B0501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC3603EA1991C02F008B0501 /* Project object */;
+	rootObject = FC36042E1991C18D008B0501 /* Project object */;
 }

@@ -1,5 +1,5 @@
 //
-//  BGMMasterViewController.h
+//  BGMViewController.h
 //  Moving Character Test
 //
 //  Created by 馬 岩 on 14-8-6.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BGMMasterViewController : UITableViewController
+@interface BGMViewController : UIViewController
 
 @end

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC3603F11991C02F008B0501"
+               BlueprintIdentifier = "FC3604351991C18D008B0501"
                BuildableName = "Moving Character Test.app"
                BlueprintName = "Moving Character Test"
                ReferencedContainer = "container:Moving Character Test.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC3604151991C02F008B0501"
+               BlueprintIdentifier = "FC3604561991C18D008B0501"
                BuildableName = "Moving Character TestTests.xctest"
                BlueprintName = "Moving Character TestTests"
                ReferencedContainer = "container:Moving Character Test.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC3603F11991C02F008B0501"
+            BlueprintIdentifier = "FC3604351991C18D008B0501"
             BuildableName = "Moving Character Test.app"
             BlueprintName = "Moving Character Test"
             ReferencedContainer = "container:Moving Character Test.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC3603F11991C02F008B0501"
+            BlueprintIdentifier = "FC3604351991C18D008B0501"
             BuildableName = "Moving Character Test.app"
             BlueprintName = "Moving Character Test"
             ReferencedContainer = "container:Moving Character Test.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FC3603F11991C02F008B0501"
+            BlueprintIdentifier = "FC3604351991C18D008B0501"
             BuildableName = "Moving Character Test.app"
             BlueprintName = "Moving Character Test"
             ReferencedContainer = "container:Moving Character Test.xcodeproj">
