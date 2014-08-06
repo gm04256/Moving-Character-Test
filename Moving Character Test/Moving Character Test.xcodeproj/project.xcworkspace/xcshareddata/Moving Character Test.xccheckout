@@ -12,20 +12,24 @@
 	<dict>
 		<key>4222DC63-7F06-469C-B941-71A39A2C4C5B</key>
 		<string>https://github.com/gm04256/Moving-Character-Test.git</string>
+		<key>F87A6B50459D7BB154C6B392EE184B12CD02F061</key>
+		<string>https://github.com/gm04256/Moving-Character-Test.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Moving Character Test/Moving Character Test.xcodeproj/project.xcworkspace</string>
+	<string>Moving Character Test/Moving Character Test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4222DC63-7F06-469C-B941-71A39A2C4C5B</key>
+		<string>../../../../Moving Character Test</string>
+		<key>F87A6B50459D7BB154C6B392EE184B12CD02F061</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/gm04256/Moving-Character-Test.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4222DC63-7F06-469C-B941-71A39A2C4C5B</string>
+	<string>F87A6B50459D7BB154C6B392EE184B12CD02F061</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>4222DC63-7F06-469C-B941-71A39A2C4C5B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Moving Character Test</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F87A6B50459D7BB154C6B392EE184B12CD02F061</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Moving%20Character%20Test</string>
 		</dict>
 	</array>
 </dict>
