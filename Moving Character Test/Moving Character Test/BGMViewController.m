@@ -8,8 +8,10 @@
 
 #import "BGMViewController.h"
 
+#import "BGMCharacterView.h"
+
 @interface BGMViewController ()
-@property (weak, nonatomic) IBOutlet UIView *characterView;
+@property (weak, nonatomic) IBOutlet BGMCharacterView *characterView;
 @property (weak, nonatomic) IBOutlet UIWebView *myWebView;
 
 @property CGRect keyboardRect;
@@ -169,5 +171,33 @@
 	
 }
 
+
+#pragma mark - Character Touch Events
+- (IBAction)characterClicked:(id)sender
+{
+	NSLog(@"%@", NSStringFromSelector(_cmd));
+	[self.characterView setCharacterToStatus:characterStatusSpeaking];
+}
+
+- (IBAction)characterDragBegin:(id)sender forEvent:(UIEvent *)event
+{
+	NSLog(@"%@", NSStringFromSelector(_cmd));
+	[self.characterView setCharacterToStatus:characterStatusDragged];
+}
+
+- (IBAction)characterDragMove:(id)sender forEvent:(UIEvent *)event
+{
+	NSLog(@"%@", NSStringFromSelector(_cmd));
+	UITouch *touch = [[event allTouches] anyObject];
+	CGPoint touchedPosition = [touch locationInView:self.view];
+	[self.characterView setCenter:touchedPosition];
+}
+
+- (IBAction)characterDragEnd:(id)sender forEvent:(UIEvent *)event
+{
+	NSLog(@"%@", NSStringFromSelector(_cmd));
+	[self.characterView setCharacterToStatus:characterStatusWating];
+	[self adjustCharacterPosition];
+}
 
 @end

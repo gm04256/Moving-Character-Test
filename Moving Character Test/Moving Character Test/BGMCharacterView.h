@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BGMCharacterView : UIView
+@interface BGMCharacterView : UIControl
+
+- (void)setCharacterToStatus:(CharacterStatus)status;
 
 @end

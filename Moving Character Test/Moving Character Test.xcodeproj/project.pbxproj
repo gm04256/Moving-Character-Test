@@ -22,6 +22,7 @@
 		FC3604631991C18D008B0501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC3604611991C18D008B0501 /* InfoPlist.strings */; };
 		FC3604651991C18D008B0501 /* Moving_Character_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3604641991C18D008B0501 /* Moving_Character_TestTests.m */; };
 		FCB8FC6919930BAA00F83090 /* BGMCharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB8FC6819930BAA00F83090 /* BGMCharacterView.m */; };
+		FCB8FC741993314800F83090 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FCB8FC731993314800F83090 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FC3604641991C18D008B0501 /* Moving_Character_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moving_Character_TestTests.m; sourceTree = "<group>"; };
 		FCB8FC6719930BAA00F83090 /* BGMCharacterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMCharacterView.h; sourceTree = "<group>"; };
 		FCB8FC6819930BAA00F83090 /* BGMCharacterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMCharacterView.m; sourceTree = "<group>"; };
+		FCB8FC731993314800F83090 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		FC36043F1991C18D008B0501 /* Moving Character Test */ = {
 			isa = PBXGroup;
 			children = (
+				FCB8FC731993314800F83090 /* images */,
 				FC3604481991C18D008B0501 /* BGMAppDelegate.h */,
 				FC3604491991C18D008B0501 /* BGMAppDelegate.m */,
 				FC36044B1991C18D008B0501 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB8FC741993314800F83090 /* images in Resources */,
 				FC3604521991C18D008B0501 /* Images.xcassets in Resources */,
 				FC3604441991C18D008B0501 /* InfoPlist.strings in Resources */,
 				FC36044D1991C18D008B0501 /* Main.storyboard in Resources */,

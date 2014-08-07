@@ -24,10 +24,15 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="p1R-Mx-gyA"/>
                                 </connections>
                             </webView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83f-fh-cgD">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83f-fh-cgD" customClass="BGMCharacterView">
                                 <rect key="frame" x="57" y="185" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="characterClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVG-02-t10"/>
+                                    <action selector="characterDragBegin:forEvent:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="bB2-UV-wGu"/>
+                                    <action selector="characterDragEnd:forEvent:" destination="BYZ-38-t0r" eventType="touchDragExit" id="Mke-pg-8n0"/>
+                                    <action selector="characterDragMove:forEvent:" destination="BYZ-38-t0r" eventType="touchDragInside" id="M8J-Jf-vVd"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
