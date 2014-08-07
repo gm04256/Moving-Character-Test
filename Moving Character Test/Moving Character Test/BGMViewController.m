@@ -28,6 +28,7 @@
 	// Initialize status variables
 	self.keyboardRect = CGRectMake(0, 0, 0, 0);
 	
+	// Disable autoLayout control to the characterView
 	[self.characterView setTranslatesAutoresizingMaskIntoConstraints:YES];
 	
 	// Start Loading Webpage
